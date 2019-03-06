@@ -127,7 +127,11 @@ The optional dependencies are:
    are available below.
 
  - PyOpenCL_: PySPH can use OpenCL if it is available. This requires
-   installing PyOpenCL_.
+   installing PyOpenCL_ and Beaker_ before installing PySPH::
+   
+     $ pip install pyopencl
+     $ pip install beaker
+     $ pip install pysph
 
  - Mayavi_: PySPH provides a convenient viewer to visualize the output
    of simulations. This viewer can be launched using the command
@@ -149,6 +153,7 @@ Zoltan_ is very unlikely to be already packaged and will need to be compiled.
 .. _Zoltan: http://www.cs.sandia.gov/zoltan/
 .. _OpenMP: http://openmp.org/
 .. _PyOpenCL: https://documen.tician.de/pyopencl/
+.. _Beaker: https://beaker.readthedocs.io/
 .. _OpenCL: https://www.khronos.org/opencl/
 .. _PyZoltan: https://github.com/pypr/pyzoltan
 
